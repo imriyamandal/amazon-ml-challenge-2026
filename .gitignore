@@ -1,0 +1,29 @@
+# Python virtual environment
+.venv/
+
+# VS Code
+.vscode/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# macOS metadata
+.DS_Store
+
+# Large raw datasets
+student_resource/dataset/
+
+# Generated EDA outputs
+student_resource/eda_outputs/
+
+git check-ignore -v student_resource/dataset/
+
+git check-ignore -v .venv/
+
+git check-ignore -v student_resource/eda_outputs/
+
+git status --short
